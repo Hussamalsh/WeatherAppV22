@@ -1,0 +1,26 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".WeatherActivity">
+
+
+    <item
+        android:id="@+id/action_SaveLocBar"
+        android:icon="@drawable/ic_save_black_48dp"
+        android:title="Save"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/action_Map"
+        android:icon="@drawable/ic_map_black_48dp"
+        android:title="Map"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/action_logOut"
+        android:title="LogOut"
+        android:icon="@android:drawable/ic_menu_search"
+        android:showAsAction="always"
+        android:actionViewClass="android.widget.SearchView" />
+
+
+</menu>

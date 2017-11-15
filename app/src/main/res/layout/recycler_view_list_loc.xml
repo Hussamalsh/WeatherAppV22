@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/locationName"
+            android:textSize="20sp"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+            android:text="London"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="2dp"
+            />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Se Weather"
+            android:id="@+id/setWeather"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="1dp"
+            />
+
+    <Button
+        android:id="@+id/deleteLoc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="5dp"/>
+
+
+</LinearLayout>
